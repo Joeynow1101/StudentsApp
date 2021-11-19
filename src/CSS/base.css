@@ -10,14 +10,17 @@
     --tertiary-light: #F8F8F8;
   }
   
-  *,
+
+  
   *::before,
   *::after {
     box-sizing: border-box;
+    
   }
 
   body{
-      font-family:"Open Sans";
+      font-family: 'open Sans';
+      margin: 0;
   }
  
   

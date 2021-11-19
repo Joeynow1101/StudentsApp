@@ -1,7 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import './base.css';
 @import './components/header.css';
 @import './components/footer.css';
 @import './components/level.css';
 @import './components/rate.css';
 @import './components/teams.css';
-@import './components/typhography.css';
+@import './components/typography.css';
