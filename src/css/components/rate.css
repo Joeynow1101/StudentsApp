@@ -52,11 +52,6 @@
     color: var(--primary-one);
 }
 
-
-* {
-    outline: 1px solid red;
-}
-
 .rate__star {
     margin: 0.2rem 0.7rem;
 }
