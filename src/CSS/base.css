@@ -8,21 +8,6 @@
     --secondary-four: #FFDED7;
     --tertiary: #E0E4E8;
     --tertiary-light: #F8F8F8;
-  
-    --fs-headline:
-    --fs-headline-up:
-    --fs-headline:
-    --fs-headline:
-
-    --ff-sans: sans-serif;
-    --ff-serif: serif;
-    
-    --fs-200: 0.75rem;
-    --fs-300: 1rem;
-    --fs-400: 1.25rem;
-    --fs-500: 1.375rem;
-    --fs-600: 1.75rem;
-    --fs-900: 2.125rem;
   }
   
   *,
@@ -34,3 +19,5 @@
   body{
       font-family:"Open Sans";
   }
+ 
+  
