@@ -52,6 +52,27 @@
     color: var(--primary-one);
 }
 
+.ratingboxinput {
+    margin: 3rem 20px 3rem 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3rem repeat(3, 4rem) 1fr;
+    color: var(--primary-two);
+}
+.ratingboxinput__date {
+    grid-row-start 1;
+    padding-bottom: 1rem;
+    color: var(--primary-one);
+}
+.ratingboxinput__rating {
+    grid-row-start 2;
+    padding-bottom: 1rem;
+}
+.ratingboxinput__motto {
+    color: var(--primary-one);
+}
+
+
 .rate__star {
     margin: 0.2rem 0.7rem;
 }
