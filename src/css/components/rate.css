@@ -120,8 +120,47 @@ input {
 }
 
 .rate__star {
-    margin: 0.2rem 0.7rem;
+    margin: 0.2rem 0.65rem;
 }
 .rate__quader {
     margin: 0.2rem 0.2rem;
+}
+
+
+.rating__stars{
+    display: inline-block;
+    grid-template-columns: repeat(5, 52px);
+    margin-top: 8px;
+}
+.rating__stars__button{
+    position: relative;
+    margin-right: 18.5px;
+    width: 24px;
+    height: 24px;
+    opacity: 0;
+    z-index: 1;
+ }
+.rating__stars__filledstar1{
+    position: absolute;
+    left: 20px;
+}
+.rating__stars__filledstar2{
+    position: absolute;
+    left: 20px;
+    opacity: 0;
+}
+input#twostar:checked + .rating__stars__filledstar2 {
+    opacity: 100%;
+    left: 20px;
+}
+input#threestar:checked + .rating__stars__filledstar2 {
+    opacity: 100%;
+    left: 20px;
+}
+input#fourstar:checked + .rating__stars__filledstar2 {
+    opacity: 100%;
+    left: 20px;
+}input#fivestar:checked + .rating__stars__filledstar2 {
+    opacity: 100%;
+    left: 20px;
 }
