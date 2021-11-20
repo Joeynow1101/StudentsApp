@@ -9,7 +9,10 @@
   </head>
   <body>
     <main>
+
+      
       <section class="ratebutton">
+        <a class="buttonlinks" href="#ratebox">
         <button class="ratebutton__field">
           <div class="body-large">Rate Today</div>
           <div class="ratebutton__star">
@@ -31,7 +34,7 @@
               />
             </svg>
           </div>
-        </button>
+        </button></a>
       </section>
 
       <section class="ratingbox">
@@ -572,7 +575,7 @@
 
       <section class="ratingboxinput">
         <div class="ratingboxinput__date headline-uppercase">Today 13.07.2020</div>
-        <div class="ratingboxinput_rating label">
+        <article class="ratingboxinput_rating label">
           Rating: <br />
           <svg
             class="rate__star"
@@ -649,8 +652,8 @@
               fill="#E0E4E8"
             />
           </svg>
-        </div>
-        <div class="ratingbox__comprehension label">
+        </article>
+        <article class="ratingbox__comprehension label">
           Comprehension: <br />
           <svg
             class="rate__quader"
@@ -822,13 +825,33 @@
               fill="#E0E4E8"
             />
           </svg>
+        </article>
+
+      
+        <div id="ratebox" class="ratingboxinput__motto label">Motto:
+            <div class="ratingboxinput__textarea">
+            <textarea class="ratingboxinput__textarea--input" name="motto" id="motto" cols="30" rows="3"></textarea>
+          </div>
         </div>
-        <div class="ratingboxinput__motto label">Motto:
-            <div>
-                <input type="url" name="" id="">
-            </div>
+        
+        <div class="ratingboxinput__notes label">Notes:
+          <div class="ratingboxinput__textarea">
+          <textarea class="ratingboxinput__textarea--input" name="motto" id="motto" cols="30" rows="6"></textarea>
         </div>
-      </section>
+      </div>
+     </section>
+
+     <section>
+      <div class="confirmarea">
+         <button class="confirmarea__cancel body-large">Cancel</button>
+      
+        <button class="confirmarea__confirm body-large">Confirm
+          <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.0236 8.59557L13.2944 1.18074C13.7014 0.815827 14.326 0.8454 14.6968 1.24714L14.8148 1.375C15.1798 1.77051 15.1663 2.38396 14.7842 2.76304L5.74604 11.7312C5.34912 12.1251 4.70637 12.1169 4.31956 11.7132L0.824495 8.06465C0.458803 7.6829 0.453407 7.08248 0.812179 6.69422L0.881718 6.61897C1.22921 6.24292 1.80461 6.19009 2.21476 6.49659L5.0236 8.59557Z" fill="white"/>
+            </svg>
+        </button>
+      </div>
+     </section>
 
     </main>
   </body>
