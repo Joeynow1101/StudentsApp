@@ -9,32 +9,30 @@
   </head>
   <body>
     <main>
-
-      
       <section class="ratebutton">
         <a class="buttonlinks" href="#ratebox">
-        <button class="ratebutton__field">
-          <div class="body-large">Rate Today</div>
-          <div class="ratebutton__star">
-            <svg
-              width="21"
-              height="19"
-              viewBox="0 0 21 19"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M10.5 0.6875L13.2038 6.15924L19.25 7.04206L14.875 11.2988L15.9075 17.3125L10.5 14.4717L5.0925 17.3125L6.125 11.2988L1.75 7.04206L7.79625 6.15924L10.5 0.6875V0.6875Z"
-                stroke="white"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </div>
-        </button></a>
+          <button class="ratebutton__field">
+            <div class="body-large">Rate Today</div>
+            <div class="ratebutton__star">
+              <svg
+                width="21"
+                height="19"
+                viewBox="0 0 21 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10.5 0.6875L13.2038 6.15924L19.25 7.04206L14.875 11.2988L15.9075 17.3125L10.5 14.4717L5.0925 17.3125L6.125 11.2988L1.75 7.04206L7.79625 6.15924L10.5 0.6875V0.6875Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div></button
+        ></a>
       </section>
 
       <section class="ratingbox">
@@ -573,113 +571,270 @@
         </div>
       </section>
 
-
       <form class="ratingboxinput">
-        <div class="ratingboxinput__date headline-uppercase">Today 13.07.2020
-            </div>
+        <div class="ratingboxinput__date headline-uppercase">
+          Today 13.07.2020
+        </div>
+
         <div class="ratingboxinput_rating label">
           Rating: <br />
-              
-          
-          <div class="rating__stars">
 
-          
+          <div class="rating__bar">
             <label for="stars">
-           <input class="rating__stars__button" type="radio" name="stars" id="onestar" checked="checked">
-           <img class="rating__stars__filledstar1" src="./img/one-stars.png" alt="Star checked">
-             </label>
-       
-
-       
-          <label for="stars">
-           <input class="rating__stars__button" type="radio" name="stars" id="twostar"  >
-           <img class="rating__stars__filledstar2" src="./img/two-stars.png" alt="Star checked">
-       </label>
-        
-
-        
-          <label for="stars">
-           <input class="rating__stars__button" type="radio" name="stars" id="threestar">
-           <img class="rating__stars__filledstar2" src="./img/three-stars.png" alt="Star checked">
-          </label> 
-       
-
-        
-          <label  for="stars">
-           <input class="rating__stars__button" type="radio" name="stars" id="fourstar">
-           <img class="rating__stars__filledstar2" src="./img/four-stars.png" alt="Star checked">
+              <input
+                class="rating__bar__button1"
+                type="radio"
+                name="stars"
+                id="onestar"
+                checked="checked"
+              />
+              <img
+                class="rating__bar__filled1"
+                src="./img/one-stars.png"
+                alt="Star one checked"
+              />
             </label>
-        
-
-        
-          <label for="stars">
-           <input class="rating__stars__button" type="radio" name="stars" id="fivestar">
-           <img class="rating__stars__filledstar2" src="./img/five-stars.png" alt="Star checked">
+            <label for="stars">
+              <input
+                class="rating__bar__button1"
+                type="radio"
+                name="stars"
+                id="twostar"
+              />
+              <img
+                class="rating__bar__filled2"
+                src="./img/two-stars.png"
+                alt="Star two checked"
+              />
             </label>
-        
-
-          </div>        
-
-        </div>
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="ratingbox__comprehension label">
-          Comprehension: <br />
-         
-        </div>
-      
-        <div id="ratebox" class="ratingboxinput__motto label">Motto:
-            <div class="ratingboxinput__textarea">
-            <textarea class="ratingboxinput__textarea--input" name="motto" id="motto" cols="30" rows="3"></textarea>
+            <label for="stars">
+              <input
+                class="rating__bar__button1"
+                type="radio"
+                name="stars"
+                id="threestar"
+              />
+              <img
+                class="rating__bar__filled2"
+                src="./img/three-stars.png"
+                alt="Star three checked"
+              />
+            </label>
+            <label for="stars">
+              <input
+                class="rating__bar__button1"
+                type="radio"
+                name="stars"
+                id="fourstar"
+              />
+              <img
+                class="rating__bar__filled2"
+                src="./img/four-stars.png"
+                alt="Star four checked"
+              />
+            </label>
+            <label for="stars">
+              <input
+                class="rating__bar__button1"
+                type="radio"
+                name="stars"
+                id="fivestar"
+              />
+              <img
+                class="rating__bar__filled2"
+                src="./img/five-stars.png"
+                alt="Star five checked"
+              />
+            </label>
           </div>
         </div>
-        
-        <div class="ratingboxinput__notes label">Notes:
-          <div class="ratingboxinput__textarea">
-          <textarea class="ratingboxinput__textarea--input" name="motto" id="motto" cols="30" rows="6"></textarea>
+
+        <div class="ratingboxinput_rating label">
+          Comprehension: <br />
+
+          <div class="rating__bar">
+            <label for="quader">
+              <input
+                class="rating__bar__button2"
+                type="radio"
+                name="quader"
+                id="onequader"
+                checked="checked"
+              />
+              <img
+                class="rating__bar__filled1"
+                src="./img/one-quader.png"
+                alt="Quader one checked"
+              />
+            </label>
+            <label for="quader">
+              <input
+                class="rating__bar__button2"
+                type="radio"
+                name="quader"
+                id="twoquader"
+              />
+              <img
+                class="rating__bar__filled2"
+                src="./img/two-quader.png"
+                alt="Quader two checked"
+              />
+            </label>
+            <label for="quader">
+              <input
+                class="rating__bar__button2"
+                type="radio"
+                name="quader"
+                id="threequader"
+              />
+              <img
+                class="rating__bar__filled2"
+                src="./img/three-quader.png"
+                alt="Quader three checked"
+              />
+            </label>
+            <label for="quader">
+              <input
+                class="rating__bar__button2"
+                type="radio"
+                name="quader"
+                id="fourquader"
+              />
+              <img
+                class="rating__bar__filled2"
+                src="./img/four-quader.png"
+                alt="Quader four checked"
+              />
+            </label>
+            <label for="quader">
+              <input
+                class="rating__bar__button2"
+                type="radio"
+                name="quader"
+                id="fivequader"
+              />
+              <img
+                class="rating__bar__filled2"
+                src="./img/five-quader.png"
+                alt="Quader five checked"
+              />
+            </label>
+            <label for="quader">
+              <input
+                class="rating__bar__button2"
+                type="radio"
+                name="quader"
+                id="sixquader"
+              />
+              <img
+                class="rating__bar__filled2"
+                src="./img/six-quader.png"
+                alt="Quader six checked"
+              />
+            </label>
+            <label for="quader">
+              <input
+                class="rating__bar__button2"
+                type="radio"
+                name="quader"
+                id="sevenquader"
+              />
+              <img
+                class="rating__bar__filled2"
+                src="./img/seven-quader.png"
+                alt="Quader seven checked"
+              />
+            </label>
+            <label for="quader">
+              <input
+                class="rating__bar__button2"
+                type="radio"
+                name="quader"
+                id="eightquader"
+              />
+              <img
+                class="rating__bar__filled2"
+                src="./img/eight-quader.png"
+                alt="Quader eight checked"
+              />
+            </label>
+            <label for="quader">
+              <input
+                class="rating__bar__button2"
+                type="radio"
+                name="quader"
+                id="ninequader"
+              />
+              <img
+                class="rating__bar__filled2"
+                src="./img/nine-quader.png"
+                alt="Quader nine checked"
+              />
+            </label>
+            <label for="quader">
+              <input
+                class="rating__bar__button2"
+                type="radio"
+                name="quader"
+                id="tenquader"
+              />
+              <img
+                class="rating__bar__filled2"
+                src="./img/ten-quader.png"
+                alt="Quader ten checked"
+              />
+            </label>
+          </div>
         </div>
-      </div>
-      
+
+        <div id="ratebox" class="ratingboxinput__motto label">
+          Motto:
+          <div class="ratingboxinput__textarea">
+            <textarea
+              class="ratingboxinput__textarea--input"
+              name="motto"
+              id="motto"
+              cols="30"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
+
+        <div class="ratingboxinput__notes label">
+          Notes:
+          <div class="ratingboxinput__textarea">
+            <textarea
+              class="ratingboxinput__textarea--input"
+              name="motto"
+              id="motto"
+              cols="30"
+              rows="6"
+            ></textarea>
+          </div>
+        </div>
+      </form>
+
       <div class="confirmarea">
-         <button class="confirmarea__cancel body-large">Cancel</button>
-      
-        <button class="confirmarea__confirm body-large">Save
-          <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.0236 8.59557L13.2944 1.18074C13.7014 0.815827 14.326 0.8454 14.6968 1.24714L14.8148 1.375C15.1798 1.77051 15.1663 2.38396 14.7842 2.76304L5.74604 11.7312C5.34912 12.1251 4.70637 12.1169 4.31956 11.7132L0.824495 8.06465C0.458803 7.6829 0.453407 7.08248 0.812179 6.69422L0.881718 6.61897C1.22921 6.24292 1.80461 6.19009 2.21476 6.49659L5.0236 8.59557Z" fill="white"/>
-            </svg>
+        <button class="confirmarea__cancel body-large">Cancel</button>
+
+        <button class="confirmarea__confirm body-large">
+          Save
+          <svg
+            width="16"
+            height="13"
+            viewBox="0 0 16 13"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M5.0236 8.59557L13.2944 1.18074C13.7014 0.815827 14.326 0.8454 14.6968 1.24714L14.8148 1.375C15.1798 1.77051 15.1663 2.38396 14.7842 2.76304L5.74604 11.7312C5.34912 12.1251 4.70637 12.1169 4.31956 11.7132L0.824495 8.06465C0.458803 7.6829 0.453407 7.08248 0.812179 6.69422L0.881718 6.61897C1.22921 6.24292 1.80461 6.19009 2.21476 6.49659L5.0236 8.59557Z"
+              fill="white"
+            />
+          </svg>
         </button>
       </div>
-    </form>
-
     </main>
   </body>
 </html>
