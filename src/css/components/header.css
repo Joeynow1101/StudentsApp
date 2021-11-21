@@ -3,10 +3,10 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-}
-.header__svg {
   position: fixed;
   top: 0%;
+}
+.header__svg {
   z-index: -10;
 }
 header .title {

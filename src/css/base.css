@@ -20,3 +20,8 @@ body {
   font-family: "Open Sans";
   margin: 0;
 }
+
+main {
+  margin-top: 110px;
+  margin-bottom: 50px;
+}

@@ -52,7 +52,7 @@ input {
 }
 
 .ratingbox {
-  margin: 3rem 20px 3rem 20px;
+  margin: 3rem 30px 3rem 30px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 3rem repeat(3, 4rem) 1fr;
@@ -88,7 +88,7 @@ input {
 }
 
 .ratingboxinput {
-  margin: 3rem 20px 3rem 20px;
+  margin: 3rem 30px 3rem 30px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 3rem repeat(3, 4rem) 1fr;
@@ -136,7 +136,7 @@ input {
   margin-right: 18.5px;
   width: 24px;
   height: 24px;
-  opacity: 0;
+  opacity: 50;
   z-index: 1;
 }
 .rating__bar__button2 {
@@ -144,7 +144,7 @@ input {
   margin-right: 4.2px;
   width: 18px;
   height: 18px;
-  opacity: 0;
+  opacity: 50;
   z-index: 1;
 }
 .rating__bar__filled1 {

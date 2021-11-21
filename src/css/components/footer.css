@@ -2,8 +2,9 @@
   width: 100%;
   display: flex;
   justify-content: center;
-}
+ }
 .footer__box {
+  background-color: white;
   position: fixed;
   bottom: 1.25rem;
   width: 21rem;
@@ -27,4 +28,3 @@
 .footer__list li {
   list-style: none;
 }
-

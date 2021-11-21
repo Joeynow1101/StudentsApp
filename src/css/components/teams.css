@@ -33,6 +33,7 @@
     border: 1px solid #E0E4E8;
     color: var(--primary-two);
     width: 315px;
+    flex-grow: 1;
     height: 56px;
     margin: auto;
     bottom: 0;
