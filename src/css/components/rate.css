@@ -26,6 +26,7 @@
   background: var(--secondary-one);
   color: white;
   border: none;
+  border-radius: 4px;
 }
 
 input {
@@ -120,10 +121,10 @@ input {
 }
 
 .rate__star {
-  margin: 0.2rem 0.65rem;
+  margin: 0.65rem 1.2rem 0.65rem 0.3rem;
 }
 .rate__quader {
-  margin: 0.2rem 0.2rem;
+  margin: 0.3rem 0.1rem 0.2rem 0.2rem;
 }
 
 .rating__bar {
