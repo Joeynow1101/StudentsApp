@@ -1,26 +1,23 @@
 :root {
-    --primary-one: #193251;
-    --primary-two: #7589A2;
-    
-    --secondary-one: #FF5A36;
-    --secondary-two: #FF9C86;
-    --secondary-three: #FFBDAF;
-    --secondary-four: #FFDED7;
-    --tertiary: #E0E4E8;
-    --tertiary-light: #F8F8F8;
-  }
-  
+  --primary-one: #193251;
+  --primary-two: #7589a2;
 
-  
-  *::before,
-  *::after {
-    box-sizing: border-box;
-    
-  }
+  --secondary-one: #ff5a36;
+  --secondary-two: #ff9c86;
+  --secondary-three: #ffbdaf;
+  --secondary-four: #ffded7;
+  --tertiary: #e0e4e8;
+  --tertiary-light: #f8f8f8;
+}
 
-  body{
-      font-family: 'open Sans';
-      margin: 0;
-  }
- 
-  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  margin: 0;
+}
+
