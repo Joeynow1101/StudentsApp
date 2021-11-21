@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  margin: 20px;
+  margin: 30px;
   align-items: center;
   align-self: center;
 }
@@ -136,7 +136,7 @@ input {
   margin-right: 18.5px;
   width: 24px;
   height: 24px;
-  opacity: 50;
+  opacity: 0;
   z-index: 1;
 }
 .rating__bar__button2 {
@@ -144,19 +144,19 @@ input {
   margin-right: 4.2px;
   width: 18px;
   height: 18px;
-  opacity: 50;
+  opacity: 0;
   z-index: 1;
 }
 .rating__bar__filled1 {
   position: absolute;
-  left: 20px;
+  left: 30px;
 }
 .rating__bar__filled2 {
   position: absolute;
-  left: 20px;
+  left: 30px;
   opacity: 0;
 }
 input[type="radio"]:checked + .rating__bar__filled2 {
   opacity: 100%;
-  left: 20px;
+  left: 30px;
 }
