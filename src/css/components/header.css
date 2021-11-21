@@ -5,9 +5,10 @@ header {
   justify-content: center;
   position: fixed;
   top: 0%;
+  z-index: 5;
 }
 .header__svg {
-  z-index: -10;
+  z-index: 10;
 }
 header .title {
   color: var(--primary-one);
@@ -16,7 +17,8 @@ header .title {
   right: 0;
   top: 1.25rem;
   margin: 0;
-}
+  z-index: 15;
+  }
 
 header .label {
   color: var(--primary-two);
@@ -26,4 +28,5 @@ header .label {
   text-align: center;
   margin: 0;
   top: 2.5rem;
+  z-index: 15;
 }

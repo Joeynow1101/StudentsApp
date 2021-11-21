@@ -20,7 +20,6 @@
 
 .current_level{
     color: var(--primary-one);
-    margin-bottom: -10px;
     margin-left: 5px;
 }
 
@@ -34,8 +33,6 @@ color: white;
 display: flex;
 justify-content: center;
 align-items: center;
-
-
 }
 
 .element--75{
@@ -58,7 +55,6 @@ border-radius: 4px 4px 4px 4px;
 color: var(--secondary-one);
 justify-content: center;
 align-items: center;
-
 }
 
 .element--25{
