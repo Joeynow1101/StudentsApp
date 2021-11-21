@@ -1,0 +1,29 @@
+header {
+  height: 3.75rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header__svg {
+  position: fixed;
+  top: 0%;
+  z-index: -10;
+}
+header .title {
+  color: var(--primary-one);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1.25rem;
+  margin: 0;
+}
+
+header .label {
+  color: var(--primary-two);
+  position: absolute;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: 0;
+  top: 2.5rem;
+}

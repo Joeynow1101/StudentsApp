@@ -1,0 +1,30 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer__box {
+  position: fixed;
+  bottom: 1.25rem;
+  width: 21rem;
+  height: 2.75rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0px 2px 11px rgba(25, 50, 81, 0.203238);
+}
+
+.footer__list {
+  height: 2.75rem;
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.footer__list li {
+  list-style: none;
+}
+
