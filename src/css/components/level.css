@@ -3,72 +3,80 @@
 .element_all{
     display:flex;
     flex-direction: column;
-    margin: 20px;
+    margin: 30px;
     color:var(--primary-one);
+    
     
 }
 
 .element_team--level{
     border: 1px solid #E0E4E8;
     color: var(--primary-two);
-    width: 315px;
-    height: 48px;
-    margin: auto;
+    display:flex;
+    flex-direction: column;
+    height: 3rem;
     align-items: center;
     justify-content: center;
 }
 
 .current_level{
     color: var(--primary-one);
-    margin-left: 5px;
+    margin-bottom: 15px;
 }
 
 .element--100{
-
-margin: 8px auto;
-background-color: var(--secondary-one);
-border-radius: 4px 4px 4px 4px;
-color: white;
-
-display: flex;
-justify-content: center;
-align-items: center;
+    margin: 0.2rem 0rem;
+    background-color: var(--secondary-one);
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .element--75{
-display: flex;
-margin: 8px auto;
-background-color: var(--secondary-two);
-border-radius: 4px 4px 4px 4px;
-color: white;
-
-justify-content: center;
-align-items: center;
+    margin: 0.2rem 0rem;
+    display: flex;
+    background-color: var(--secondary-two);
+    border-radius: 4px 4px 4px 4px;
+    color: white;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .element--50{
-display: flex;
-margin: 8px auto;
-background-color: var(--secondary-three);
-border-radius: 4px 4px 4px 4px;
-color: var(--secondary-one);
-justify-content: center;
-align-items: center;
+    margin: 0.2rem 0rem;
+    display: flex;
+    background-color: var(--secondary-three);
+    border-radius: 4px 4px 4px 4px;
+    color: var(--secondary-one);
+    justify-content: center;
+    align-items: center;
 }
 
 .element--25{
-display: flex;
-margin: 8px auto;
-background-color: var(--secondary-four);
-border-radius: 4px 4px 4px 4px;
-color: var(--secondary-one);
-justify-content: center;
-align-items: center;
+    margin: 0.2rem 0rem;
+    display: flex;
+    background-color: var(--secondary-four);
+    border-radius: 4px 4px 4px 4px;
+    color: var(--secondary-one);
+    justify-content: center;
+    align-items: center;
 
 }
 
 .svg__buttons{
     text-align: right;
     margin-right: 18px;
+}
+.digramm_level{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow:inherit;
+    margin-bottom: 10px;
+    
+  
+
 }
