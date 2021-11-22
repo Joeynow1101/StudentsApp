@@ -52,10 +52,10 @@ input {
 }
 
 .ratingbox {
-  margin: 3rem 30px 3rem 30px;
+  margin: 30px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 3rem repeat(3, 4rem) 1fr;
+  grid-template-rows: 40px repeat(3, 50px) 120px;
   color: var(--primary-two);
 }
 .ratingbox__date {
@@ -85,10 +85,10 @@ input {
 .ratingbox__notes__text {
   padding-top: 0.2rem;
   color: var(--primary-one);
-}
+  }
 
 .ratingboxinput {
-  margin: 3rem 30px 3rem 30px;
+  margin: 30px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 3rem repeat(3, 4rem) 1fr;
@@ -96,7 +96,6 @@ input {
 }
 .ratingboxinput__date {
   grid-row-start: 1;
-  padding-bottom: 1rem;
   color: var(--primary-one);
 }
 .ratingboxinput__rating {
