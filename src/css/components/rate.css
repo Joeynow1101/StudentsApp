@@ -124,3 +124,10 @@ input {
 .star-filled {
   fill: var(--primary-one);
 }
+
+.quader-unfilled {
+  fill: var(--tertiary);
+}
+.quader-filled {
+  fill: var(--primary-one);
+}

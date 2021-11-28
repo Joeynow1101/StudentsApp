@@ -12,7 +12,7 @@ allStarsArray.forEach((starButton) => {
     allStarsArray.forEach((fillStar, index) => {
       if (index <= currentStar) {
         fillStar.classList.add("star-filled");
-      }
+      };
     });
   });
 });
@@ -26,12 +26,12 @@ allQuaderArray.forEach((quaderButton) => {
   quaderButton.addEventListener("click", () => {
     const currentQuader = allQuaderArray.indexOf(quaderButton);
     allQuaderArray.forEach((unfillQuader) => {
-      unfillQuader.classList.remove("star-filled");
+      unfillQuader.classList.remove("quader-filled");
     });
     allQuaderArray.forEach((fillQuader, index) => {
       if (index <= currentQuader) {
-        fillQuader.classList.add("star-filled");
-      }
+        fillQuader.classList.add("quader-filled");
+      };
     });
   });
 });
