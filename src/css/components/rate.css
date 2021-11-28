@@ -2,31 +2,31 @@
   text-decoration: none;
 }
 .confirmarea {
+  align-items: center;
+  align-self: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   margin: 30px;
-  align-items: center;
-  align-self: center;
 }
 .confirmarea__cancel {
-  grid-column-start: 1;
-  width: 140px;
-  height: 48px;
-  justify-self: left;
-  color: var(--primary-one);
   background: none;
   border: none;
+  color: var(--primary-one);
+  grid-column-start: 1;
+  height: 48px;
+  justify-self: left;
+  width: 140px;
 }
 .confirmarea__confirm {
+  background: var(--secondary-one);
+  border-radius: 4px;
+  border: none;
+  color: white;
   grid-column-start: 2;
-  width: 140px;
   height: 48px;
   justify-self: right;
-  background: var(--secondary-one);
-  color: white;
-  border: none;
-  border-radius: 4px;
+  width: 140px;
 }
 
 input {
@@ -37,31 +37,31 @@ input {
   text-align: center;
 }
 .ratebutton__field {
-  border: 0;
+  align-content: center;
+  align-items: center;
   background-color: var(--secondary-one);
   border-radius: 4px;
+  border: 0;
+  color: white;
   display: inline-flex;
   justify-content: center;
-  align-items: center;
-  align-content: center;
   padding: 12px 40px;
-  color: white;
 }
 .ratebutton__star {
   padding-left: 0.5rem;
 }
 
 .ratingbox {
-  margin: 30px;
+  color: var(--primary-two);
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 40px repeat(3, 50px) 120px;
-  color: var(--primary-two);
+  margin: 30px;
 }
 .ratingbox__date {
+  color: var(--primary-one);
   grid-row-start: 1;
   padding-bottom: 1rem;
-  color: var(--primary-one);
 }
 .ratingbox__rating {
   grid-row-start: 2;
@@ -83,29 +83,28 @@ input {
   padding-bottom: 1rem;
 }
 .ratingbox__notes__text {
-  padding-top: 0.2rem;
   color: var(--primary-one);
-  }
+  padding-top: 0.2rem;
+}
 
 .ratingboxinput {
-  margin: 30px;
+  color: var(--primary-two);
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 3rem repeat(3, 4rem) 1fr;
-  color: var(--primary-two);
+  margin: 30px;
 }
 .ratingboxinput__date {
-  grid-row-start: 1;
   color: var(--primary-one);
+  grid-row-start: 1;
 }
 .ratingboxinput__rating {
   grid-row-start: 2;
   padding-bottom: 1rem;
 }
 .ratingboxinput__motto {
-  margin-top: 1rem;
-
   color: var(--primary-one);
+  margin-top: 1rem;
 }
 .ratingboxinput__textarea {
   display: flex;
@@ -115,47 +114,6 @@ input {
   flex-grow: 1;
 }
 .ratingboxinput__notes {
-  margin-top: 3rem;
   color: var(--primary-one);
-}
-
-.rate__star {
-  margin: 0.65rem 1.2rem 0.65rem 0.3rem;
-}
-.rate__quader {
-  margin: 0.3rem 0.1rem 0.2rem 0.2rem;
-}
-
-.rating__bar {
-  display: inline-block;
-  margin-top: 8px;
-}
-.rating__bar__button1 {
-  position: relative;
-  margin-right: 18.5px;
-  width: 24px;
-  height: 24px;
-  opacity: 0;
-  z-index: 1;
-}
-.rating__bar__button2 {
-  position: relative;
-  margin-right: 4.2px;
-  width: 18px;
-  height: 18px;
-  opacity: 0;
-  z-index: 1;
-}
-.rating__bar__filled1 {
-  position: absolute;
-  left: 30px;
-}
-.rating__bar__filled2 {
-  position: absolute;
-  left: 30px;
-  opacity: 0;
-}
-input[type="radio"]:checked + .rating__bar__filled2 {
-  opacity: 100%;
-  left: 30px;
+  margin-top: 3rem;
 }
