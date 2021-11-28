@@ -117,3 +117,7 @@ input {
   color: var(--primary-one);
   margin-top: 3rem;
 }
+
+.rate-filled {
+  fill: var(--primary-one);
+}
