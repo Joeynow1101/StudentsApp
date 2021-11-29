@@ -1,35 +1,42 @@
 /* ----- Rating Stars ----- */
 
 const allStars = document.querySelectorAll(".star-unfilled");
-const allStarsArray = Array.from(allStars);
 
-allStarsArray.forEach((starButton) => {
+
+
+allStars.forEach((starButton, currentStarIndex) => {
   starButton.addEventListener("click", () => {
-    const currentStar = allStarsArray.indexOf(starButton);
-    allStarsArray.forEach((unfillStar) => {
+    const currentStar = currentStarIndex;
+
+    allStars.forEach((unfillStar) => {
       unfillStar.classList.remove("star-filled");
     });
-    allStarsArray.forEach((fillStar, index) => {
-      if (index <= currentStar) {
+
+    allStars.forEach((fillStar, fillStarIndex) => {
+      if (fillStarIndex <= currentStar) {
         fillStar.classList.add("star-filled");
       };
     });
   });
 });
 
+
 /* ----- Rating Qauder ----- */
 
 const allQuader = document.querySelectorAll(".quader-unfilled");
-const allQuaderArray = Array.from(allQuader);
 
-allQuaderArray.forEach((quaderButton) => {
+
+
+allQuader.forEach((quaderButton, currentQuaderIndex) => {
   quaderButton.addEventListener("click", () => {
-    const currentQuader = allQuaderArray.indexOf(quaderButton);
-    allQuaderArray.forEach((unfillQuader) => {
+    const currentQuader = currentQuaderIndex;
+
+    allQuader.forEach((unfillQuader) => {
       unfillQuader.classList.remove("quader-filled");
     });
-    allQuaderArray.forEach((fillQuader, index) => {
-      if (index <= currentQuader) {
+
+    allQuader.forEach((fillQuader, fillQuaderindex) => {
+      if (fillQuaderindex <= currentQuader) {
         fillQuader.classList.add("quader-filled");
       };
     });
