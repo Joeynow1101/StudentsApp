@@ -2,6 +2,7 @@ fetch("https://muc-student-companion-api.vercel.app/api/teams")
   .then((result) => result.json()) // JSON wird geparsed
   .then((data) => data.forEach(renderToDo)); // Geparste Daten werden weiterverarbeitet
 
+  const allTeamsData = [];
 
 function renderToDo(team) {  
 
@@ -31,5 +32,9 @@ teamHeadline.innerText = "Team "+teamNumber;
         }
   })
    
+  allTeamsData.push(team)
+  localStorage.setItem("_teams", JSON.stringify(allTeamsData));
+
+
 }
 
