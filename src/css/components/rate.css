@@ -118,6 +118,16 @@ input {
   margin-top: 3rem;
 }
 
-.rate-filled {
+.star-unfilled {
+  fill: var(--tertiary);
+}
+.star-filled {
+  fill: var(--primary-one);
+}
+
+.quader-unfilled {
+  fill: var(--tertiary);
+}
+.quader-filled {
   fill: var(--primary-one);
 }
