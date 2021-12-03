@@ -1,10 +1,21 @@
-const teams = [['Sudanka Bakalowits', 'Yasaman Foroutan', 'Chioke Okonkwo', 'Maria José Botín', 'Tikhon Yaroslavsky'], 
-            ['Heiner Brigitta','Margit Claus','Gotthold Fritzi','Stefanie Leonard','Jörg Roman']]
+
+fetch("https://muc-student-companion-api.vercel.app/api/teams")
+  .then((result) => result.json()) // JSON wird geparsed
+  .then((data) => data.forEach(renderToDo)); // Geparste Daten werden weiterverarbeitet
 
 
-const team1 = teams[0]             
-const team2 = teams[1]
+  const allTeams = []
 
+  function renderToDo(teams) {
+    allTeams.push(teams);
+  }
+
+const team1 = allTeams.filter((team, index)=> team[index])
+console.log(allTeams);
+console.log(team1);
+
+
+/*
 const crew1 = document.querySelector('.crew1')
 const crew2 = document.querySelector('.crew2')
 
@@ -45,6 +56,6 @@ team2.forEach((teamMember) => {
                  }
      })
 
-
+*/
 
 
