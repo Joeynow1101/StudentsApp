@@ -13,9 +13,9 @@ function renderToDo(team) {
 const teamBlocks = document.querySelector(".element_all")  
 const teamHeadline = document.createElement('div')
 teamHeadline.classList.add("headline", "element_headline")
-teamHeadline.innerText = "Team ";
 teamBlocks.appendChild(teamHeadline)
-
+const teamNumber = teamBlocks.childElementCount;
+teamHeadline.innerText = "Team "+teamNumber;
 
 
   team.forEach((teamMember) => {
