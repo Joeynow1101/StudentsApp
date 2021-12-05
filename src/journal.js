@@ -2,12 +2,9 @@ fetch("https://muc-student-companion-api.vercel.app/api/journals")
   .then((result) => result.json()) // JSON wird geparsed
   .then((data) => data.forEach(renderToDo)); // Geparste Daten werden weiterverarbeitet
 
-
 const allRatingsData = [];
 
-
 function renderToDo(ratingData) {
-  
   const main = document.querySelector(".ratingsarea");
   const ratingBox = document.createElement("section");
   ratingBox.classList.add("ratingbox");
@@ -16,17 +13,16 @@ function renderToDo(ratingData) {
   ratingBoxDate.innerText = "Yesterday";
   ratingBoxDate.classList.add("ratingbox__date", "headline-uppercase");
 
- 
   const ratingBoxRating = document.createElement("div");
   ratingBoxRating.classList.add("ratingbox__rating", "label");
 
   let starRating = [];
   for (let starCounter = 0; starCounter < 5; starCounter++) {
-    ratingData.rating <= starCounter ? 
-    starRating.push("star-unfilled") : 
-    starRating.push("star-filled")
-    }
-   ratingBoxRating.innerHTML = `Rating: <br/><svg
+    ratingData.rating <= starCounter
+      ? starRating.push("star-unfilled")
+      : starRating.push("star-filled");
+  }
+  ratingBoxRating.innerHTML = `Rating: <br/><svg
 width="205"
 height="24"
 viewBox="0 0 205 24"
@@ -64,19 +60,16 @@ xmlns="http://www.w3.org/2000/svg"
 />
 </svg>
 `;
- 
 
   const ratingBoxComprehension = document.createElement("div");
   ratingBoxComprehension.classList.add("ratingbox__comprehension", "label");
- 
+
   let quaderRating = [];
   for (let quaderCounter = 0; quaderCounter < 10; quaderCounter++) {
-    ratingData.comprehension <= quaderCounter ? 
-    quaderRating.push("quader-unfilled") : 
-    quaderRating.push("quader-filled")
-    }
-    console.log(ratingData.comprehension)
-    console.log(quaderRating)
+    ratingData.comprehension <= quaderCounter
+      ? quaderRating.push("quader-unfilled")
+      : quaderRating.push("quader-filled");
+  }
   ratingBoxComprehension.innerHTML = `Comprehension: <br/> <svg
   width="274"
   height="22"
@@ -174,7 +167,6 @@ xmlns="http://www.w3.org/2000/svg"
   />
 </svg>`;
 
-
   const ratingBoxMotto = document.createElement("div");
   ratingBoxMotto.innerText = "Motto:";
   ratingBoxMotto.classList.add("ratingbox__motto", "label");
@@ -197,9 +189,8 @@ xmlns="http://www.w3.org/2000/svg"
     ratingBoxComprehension,
     ratingBoxMotto,
     ratingBoxNotes
-    );
-    
-    allRatingsData.push(ratingData)
-    localStorage.setItem("_ratings", JSON.stringify(allRatingsData));
- 
+  );
+
+  allRatingsData.push(ratingData);
+  localStorage.setItem("_ratings", JSON.stringify(allRatingsData));
 }
