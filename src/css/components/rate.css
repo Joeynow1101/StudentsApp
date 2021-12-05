@@ -106,6 +106,10 @@ input {
   color: var(--primary-one);
   margin-top: 1rem;
 }
+.ratingboxinput__notes {
+  color: var(--primary-one);
+  margin-top: 3rem;
+}
 .ratingboxinput__textarea {
   display: flex;
   margin-top: 0.3rem;
@@ -113,10 +117,7 @@ input {
 .ratingboxinput__textarea--input {
   flex-grow: 1;
 }
-.ratingboxinput__notes {
-  color: var(--primary-one);
-  margin-top: 3rem;
-}
+
 
 .star-unfilled {
   fill: var(--tertiary);
