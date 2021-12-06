@@ -47,8 +47,7 @@ const rateFormular = document.querySelector(".ratingboxinput");
 confirmButton.addEventListener("click", () => {
   const ratingData = {};
   ratingData.rating = rateFormular.querySelectorAll(".star-filled").length;
-  ratingData.comprehension =
-    rateFormular.querySelectorAll(".quader-filled").length;
+  ratingData.comprehension = rateFormular.querySelectorAll(".quader-filled").length;
   ratingData.motto = rateFormular.querySelector("#motto").value;
   ratingData.notes = rateFormular.querySelector("#notes").value;
 
